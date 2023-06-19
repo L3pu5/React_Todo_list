@@ -1,0 +1,35 @@
+@media (min-width: 550px){
+  body {
+    padding-inline: 5%
+  }
+}
+
+@media (min-width: 1000px){
+  body{
+    padding-inline: 25%;
+  }
+}
+
+
+.new-item-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.new-item-input {
+  border-radius: 0.04em;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  padding-inline: 5%;
+}
+
+.btn {
+  width: 15%;
+  padding: 0.25em, 0.5em;
+  
+}
